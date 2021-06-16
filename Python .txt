@@ -1,0 +1,92 @@
+Instalación de Python.
+
+- Instalar la versión mas actualiazada https://www.python.org/downloads/
+- Luego descargar e instalar el IDE Pycharm https://www.jetbrains.com/es-es/pycharm/download/#section=windows
+
+- Leccion 01
+
+Mandar Mensaje de consola solo ocupamos:
+
+print ("Hola mundo")
+
+Variables en python
+
+permite almacenar info de manera tempora, ya sea cadena, numero o condicion.
+No te pide indicar el tipo de variable, podemos cambiar ya sea de cadena a numerico.
+
+miVariable = "Hola Mundo"
+print (miVariable)
+
+x = 10
+y = 2
+suma = x + y
+
+print (suma, x, y)
+
+la variable id(variable) nos ayuda a conocer la posicion o direccion de memoria donde se almacena tal variable.
+
+print (id(x))
+print (id(y))
+print (id(suma))
+
+para conocer el tipo de la variable que estamos usando solo declaramos 
+
+type(variable)
+
+podemos concatenar usando el simbolo + 
+
+#Cadena (String)
+miArtistafav = "Lady Gaga"  + " " + "Miley Cyrus"
+print("Mi cantante favorita es: " + miArtistafav)
+
+Condicion = 1 > 3
+print(Condicion)
+
+convertir variables en python.
+
+tipo de variable (variable)
+
+Funcion Input
+
+#Funcion input, procesa la entrada del usuario.
+
+resultado = input("Mi nombre es : ")
+print(resultado)
+print ("Fin del programa")
+
+Nota: Fijarse bien al momento de imprimir resultados con variables numerica, se pone una coma para separarlas.
+
+hay otra manera para imprimir 
+
+print (f'Fin del programa:  {variable} '): es una manera mas practica
+
+Incremento con reasignacion  
+
+miVariable = 11
+print(miVariable)
+
+miVariable -= 2 ---> Esta es una manera de incremetar con reasignacion
+print(miVariable)
+
+miVariable += 3
+print(miVariable)
+
+Operaciones de comparacion: estos nos permiten saber si dos valores son iguales o distintos
+
+operadores: 
+
+== -> igual 
+!= -> diferente
+> -> mayor
+< -> menor 
+>= -> mayor que
+<= -> menor que 
+
+a = int(input('Ingrese el 1er numero'))
+#b= input('Ingrese el 2d0 numero')
+
+Así se usa un if.
+if a % 2 == 0:
+    print('El valor de {a} es numero par')
+else:
+    print('El valor de {a} es impar')
