@@ -62,12 +62,21 @@
     #print('Dentro de los 30s')
 #else:
  #  print ("'No esta dentro de los 20's y 30's")
+#numero1 = int(input('Proporciona el numero 1'))
+#numero2 = int(input('Proporciona el numero 2'))
+#if(numero1 > numero2):
+ #print("El numero mayor es el No 1")
+#else:
+ #print("El numero mayor  es el No 2")
 
+print(" ++++ Proporcione los datos del libro ++++ ")
+nombreLibro = input("Proporcione el nombre del libro: ")
+idLibro = int(input("Proporcione el ID de libro: "))
+precioLibro = float(input("Proporcione el precio de Libro: "))
+envioGratuito = input("Indica si el envio es gratuito (True/False): ")
 
-numero1 = int(input('Proporciona el numero 1'))
-numero2 = int(input('Proporciona el numero 2'))
+print(f'Nombre: {nombreLibro}')
+print(f'ID: {idLibro}')
+print(f'Precio: {precioLibro}')
+print(f'Envio Gratuito: {envioGratuito}')
 
-if(numero1 > numero2):
-    print("El numero mayor es el No 1")
-else:
-    print("El numero mayor  es el No 2")
