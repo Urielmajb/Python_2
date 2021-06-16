@@ -42,11 +42,22 @@
 # else:
 # print(f'El valor {valor} esta fuera de rango')
 
-vacaciones = False
-diaDescanso = False
-tieneVacaciones = vacaciones or diaDescanso
+#vacaciones = False
+#diaDescanso = False
+#tieneVacaciones = not vacaciones
+#if tieneVacaciones:
+#print('Puede asistir al juego')
+#else:
+#print('No puede asistir al juego')
 
-if tieneVacaciones:
-    print('Puede asistir al juego')
+edad= int(input('Ingrese la edad'))
+
+veintes = edad >= 20 and edad <= 30
+treintas = edad >= 30  and edad <= 40
+
+print(veintes, treintas)
+
+if veintes or treintas:
+    print('Dentro de rango (20\'s) p (30\'s) ')
 else:
-    print('No puede asistir al juego')
+    print ("'No esta dentro de los 20's y 30's")
