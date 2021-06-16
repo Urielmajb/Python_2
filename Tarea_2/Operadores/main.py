@@ -1,5 +1,4 @@
 #Operadores
-
 #alto = int(input("Proporcionar el alto: "))
 #ancho = int(input("Proporcionar el ancho: "))
 #area = alto * ancho
@@ -22,29 +21,26 @@
 #print('El valor de {a} es numero par')
 #else:
 #print('El valor de {a} es impar')
-
 #edad=18
 #edadPersona= int(input('Escribe tu edad: '))
-
 #if edadPersona >= edad:
  #   print('Eres mayor de edad')
 #else:
  #  print('Eres menor de edad')
 
 #Operadores logicos
-
 #a= True
 #b= True
 #resultado = a and b
 #print(resultado)
+#valor = int(input('Escribe el valor: '))
+#valorMinimo = 0
+#valorMaximo = 5
+#dentroRango = valor >= valorMinimo and valor <= valorMaximo
+#if dentroRango:
+#print(f'El valor {valor} esta dentro de rango')
+#else:
+#print(f'El valor {valor} esta fuera de rango')
 
-valor = int(input('Escribe el valor: '))
-valorMinimo = 0
-valorMaximo = 5
-
-dentroRango = valor >= valorMinimo and valor <= valorMaximo
-
-if dentroRango:
-    print(f'El valor {valor} esta dentro de rango')
-else:
-    print(f'El valor {valor} esta fuera de rango')
+vacaciones = True
+diaDescanso = True
