@@ -31,3 +31,9 @@ if edadPersona >= edad:
 else:
    print('Eres menor de edad')
 
+#Operadores logicos
+
+a= True
+b= True
+resultado = a and b
+print(resultado)
