@@ -50,14 +50,24 @@
 #else:
 #print('No puede asistir al juego')
 
-edad= int(input('Ingrese la edad'))
+#edad= int(input('Ingrese la edad'))
+#veintes = edad >= 20 and edad <= 30
+#treintas = edad >= 30  and edad <= 40
+#print(veintes, treintas)
+#if veintes or treintas:
+ #print('Dentro de rango (20\'s) p (30\'s) ')
+  #if veintes:
+   #print('Dentro de los 20s')
+   #elif treintas:
+    #print('Dentro de los 30s')
+#else:
+ #  print ("'No esta dentro de los 20's y 30's")
 
-veintes = edad >= 20 and edad <= 30
-treintas = edad >= 30  and edad <= 40
 
-print(veintes, treintas)
+numero1 = int(input('Proporciona el numero 1'))
+numero2 = int(input('Proporciona el numero 2'))
 
-if veintes or treintas:
-    print('Dentro de rango (20\'s) p (30\'s) ')
+if(numero1 > numero2):
+    print("El numero mayor es el No 1")
 else:
-    print ("'No esta dentro de los 20's y 30's")
+    print("El numero mayor  es el No 2")
