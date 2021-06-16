@@ -23,17 +23,24 @@
 #else:
 #print('El valor de {a} es impar')
 
-edad=18
-edadPersona= int(input('Escribe tu edad: '))
+#edad=18
+#edadPersona= int(input('Escribe tu edad: '))
 
-if edadPersona >= edad:
-    print('Eres mayor de edad')
-else:
-   print('Eres menor de edad')
+#if edadPersona >= edad:
+ #   print('Eres mayor de edad')
+#else:
+ #  print('Eres menor de edad')
 
 #Operadores logicos
 
-a= True
-b= True
-resultado = a and b
-print(resultado)
+#a= True
+#b= True
+#resultado = a and b
+#print(resultado)
+
+valor = int(input('Escribe el valor: '))
+valorMinimo = 0
+valorMaximo = 5
+
+dentroRango = valor >= valorMinimo and valor <= valorMaximo
+print (dentroRango)
