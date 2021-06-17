@@ -75,8 +75,17 @@ idLibro = int(input("Proporcione el ID de libro: "))
 precioLibro = float(input("Proporcione el precio de Libro: "))
 envioGratuito = input("Indica si el envio es gratuito (True/False): ")
 
-print(f'Nombre: {nombreLibro}')
-print(f'ID: {idLibro}')
-print(f'Precio: {precioLibro}')
-print(f'Envio Gratuito: {envioGratuito}')
+if envioGratuito == 'True':
+    envioGratuito = True
+elif envioGratuito == 'False':
+    envioGratuito = False
+else:
+    envioGratuito = 'Valor incorrecto, escriba de nuevo (True/False)'
+
+print(f'''
+     Nombre: {nombreLibro}, 
+     ID Libro: {idLibro},
+     Precio: {precioLibro},
+     Envio: {envioGratuito}
+''')
 
