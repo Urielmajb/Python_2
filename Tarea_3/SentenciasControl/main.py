@@ -1,6 +1,6 @@
 # Sentencias
 
-condicion = 'Urielma'
+condicion = True
 
 if condicion == True:
     print('Condicion Verdadera')

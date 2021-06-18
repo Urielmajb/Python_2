@@ -92,4 +92,17 @@ else:
     print('El valor de {a} es impar')
 	
 - Sentencias de Control.
+	   
+if/else 
+
+condicion = True
+
+if condicion == True:
+    print('Condicion Verdadera')
+elif condicion == False:
+    print('Condicion falsa')
+else:
+    print('Condicion no reconocida')
+	
+prara usar el modo debuger se debe de colocar un punto de quiebre o bandera donde hace analisis de el.
 
