@@ -90,3 +90,6 @@ if a % 2 == 0:
     print('El valor de {a} es numero par')
 else:
     print('El valor de {a} es impar')
+	
+- Sentencias de Control.
+
