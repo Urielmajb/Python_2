@@ -1,8 +1,10 @@
 # Sentencias
 
-condicion = True
+condicion = 'Urielma'
 
-if condicion:
+if condicion == True:
     print('Condicion Verdadera')
+elif condicion == False:
+    print('Condicion falsa')
 else:
-    print('Condicion Falsa')
+    print('Condicion no reconocida')
